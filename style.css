@@ -37,7 +37,6 @@ footer{
     flex-direction: row;
     flex-wrap: wrap;
     min-height: 300px;
-
 }
 
 
@@ -45,7 +44,6 @@ footer{
     flex-grow: 1;
     flex-basis: 0;
     max-width: 100%;
-    
 
 }
 
@@ -55,7 +53,7 @@ footer{
     /* solo per visualizzare le colonne  */
     border: 2px solid rgb(225, 19, 19);
 
-    min-height: 100px;
+    min-height: 50px;
 
 }
 /*------------------- container------------------- */
@@ -68,4 +66,13 @@ h1{
 /* -------------------------- */
 .last-section{
     background-color: var(--last-section);
+}
+
+.white-font{
+    color: white;
+}
+
+.row .btn-col{
+    height: 10px;
+
 }
