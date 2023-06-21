@@ -29,14 +29,15 @@ footer{
     --bs-secondary: rgb(44, 62, 80);
     --bs-primary-rgb: 26,188,156;
     --bs-secondary-rgb: 44,62,80;
-    /* --last-section: rgb(58, 84, 109);  
+    /* --last-section: rgb(58, 84, 109);
     --last-section: 85,84,109; */
 }
 .row{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    
+    min-height: 300px;
+
 }
 
 
@@ -44,17 +45,25 @@ footer{
     flex-grow: 1;
     flex-basis: 0;
     max-width: 100%;
+    
 
 }
 
+[ class*="col-"]{
+    flex: 0 0 auto;
 
+    /* solo per visualizzare le colonne  */
+    border: 2px solid rgb(225, 19, 19);
+
+    min-height: 100px;
+
+}
 /*------------------- container------------------- */
 
-main .container-fluid {
-    min-height: 300px;
+h1{
+    color: black;
+    text-align: center;
 }
-
-
 
 /* -------------------------- */
 .last-section{
