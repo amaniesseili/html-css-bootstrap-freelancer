@@ -1,0 +1,62 @@
+/*------------------- General Styles------------------- */
+
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+header{
+    min-height: 80px;
+}
+
+footer{
+    min-height: 80px;
+
+}
+
+
+.section{
+    min-height: 500px;
+}
+
+
+/* --------------------  Utilities -------------------*/
+/* ----------------------- Layout -------------------- */
+:root{
+    --bs-primary: rgb(26, 188, 156);
+    --bs-secondary: rgb(44, 62, 80);
+    --bs-primary-rgb: 26,188,156;
+    --bs-secondary-rgb: 44,62,80;
+    /* --last-section: rgb(58, 84, 109);  
+    --last-section: 85,84,109; */
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+
+.col{
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
+
+}
+
+
+/*------------------- container------------------- */
+
+main .container-fluid {
+    min-height: 300px;
+}
+
+
+
+/* -------------------------- */
+.last-section{
+    background-color: var(--last-section);
+}
