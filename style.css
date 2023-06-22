@@ -32,23 +32,8 @@ footer{
     /* --last-section: rgb(58, 84, 109);
     --last-section: 85,84,109; */
 }
-.row{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    min-height: 300px;
-}
-
-
-.col{
-    flex-grow: 1;
-    flex-basis: 0;
-    max-width: 100%;
-
-}
 
 [ class*="col-"]{
-    flex: 0 0 auto;
 
     /* solo per visualizzare le colonne  */
     border: 2px solid rgb(225, 19, 19);
@@ -78,9 +63,30 @@ h1{
     height: 10px;
 
 }
+section{
+    padding: 60px 0;
+}
+.avatar-img{
+    width: 20%;
+    margin-bottom: 1rem;
+}
+.line{
+    width: 100px;
+    height: 3px;
+    background-color: white;
+    border-radius: 2px;
+    margin: 1rem;
+}
+.bg-primary h1{
+    color: white;
+}
 
-/* .text-align-center{
-    text-align: center;
-    vertical-align: center;
-    ali
-}    perche nn si allena verticalmente ? neache con il d-flex*/
+.two-columns{
+    columns: 2;
+}
+.portfolio .line{
+    background-color: black;
+}
+.portfolio i{
+    color: black;
+}
