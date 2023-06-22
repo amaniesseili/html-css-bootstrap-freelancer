@@ -90,3 +90,18 @@ section{
 .portfolio i{
     color: black;
 }
+
+.circle-border-i{
+    padding: 0.5rem;
+    border: 1px solid white;
+    /* aspect-ratio: 1/1;  peche nn funziona?*/
+    border-radius:30px ;
+    object-fit: cover;
+}
+
+.fa-solid .fa-hand{
+    border: none;
+}
+/* a{
+    color: var(--bs-primary);
+}  perche nn cambia il colore */
